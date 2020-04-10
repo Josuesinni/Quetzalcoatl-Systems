@@ -3,6 +3,11 @@
 <?php require "head.html"?>
 <body class="fondo">
     <?php require "header.html"; ?>
+    <!--No olvidar
+    git add . 
+    git commit -m ""
+    git status -s
+    git push-->
     <div id="inicio">
             <a name="inicio"></a>
         </div>
