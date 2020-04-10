@@ -1,0 +1,64 @@
+.formulario{
+    width: 100%;
+    margin: auto;
+    color: #999;
+    float: inline-start;
+    background-color: aqua;
+}
+.caja-1{
+    width: 30%;
+    height: 30px;
+    margin-left: 35%; 
+    margin-right: 35%;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.caja-2{
+    width: 30%;
+    height: 30px;
+    margin-left: 35%; 
+    margin-right: 35%;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.caja-3{
+    width: 30%;
+    height: 30px;
+    margin-left: 35%; 
+    margin-right: 35%;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.caja-4{
+    width: 30%;
+    height: 100px;
+    margin-left: 35%; 
+    margin-right: 35%;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    max-width: 30%;
+    min-width: 30%;
+    max-height: 200px;
+    min-height: 100px;
+}
+.enviar-a{
+    background: springgreen;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 70px;
+    letter-spacing: .5px;
+    width: 30%;
+}
+.enviar-a:hover{
+    background: #888;
+}
+/*.correr{
+    margin: ;
+}*/

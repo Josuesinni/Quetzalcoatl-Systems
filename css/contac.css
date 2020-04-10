@@ -1,0 +1,79 @@
+/*Documento: Contacto.php*/
+.logo p a{
+    color:white;
+    font-size: 32px;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: perm;
+    }
+    
+.logo img{
+    padding-top: 0px;
+    height: 100px;
+    width: 100px;
+    /*alineación vertical: centrada*/
+    vertical-align: middle;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+
+    /*Color de la fuente*/
+    color: white;
+
+    /*Tamaño de la fuente*/
+    font-size: 18px;
+
+    /*Decoracion del texto(subrayado, negritas, etc): ninguna*/
+    text-decoration: none;
+
+    /*Texto en mayusculas*/
+    text-transform: uppercase;
+
+    /*Un tipo de margen de 20 pixeles*/
+    padding-left: 20px;
+
+    /*Espacio entre letras*/
+    letter-spacing: .5px;
+
+    /*Nombre de la fuente*/
+    font-family: mont;
+
+    /*Transición de salida*/
+    transition: 1s;
+}
+.fondo-contacto{
+    background: url(../imagenes/fondojg2.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+.car-correo{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    /*background: rgba(0, 0, 0, .3);*/
+    text-align: center;
+    /*Importancia de los contenedores*/
+    z-index: 2;
+}
+.correo p{
+    font-family: mont;
+    color: white;
+    font-size: 20px;
+    padding-top: 35px;
+    text-align: center;
+}
+@font-face{
+    font-family: mont;
+    src: url(fuentes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: concert;
+    src: url(fuentes/ConcertOne-Regular.ttf);
+}
+@font-face{
+    font-family: perm;
+    src: url(fuentes/PermanentMarker-Regular.ttf);
+}

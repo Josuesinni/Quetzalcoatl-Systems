@@ -1,0 +1,139 @@
+*{
+/*Margenes de todo la página en 0 para que sea de esquina a esquina*/
+margin:0;
+padding: 0;
+}
+
+.fondo{
+    /*color del fondo de la clase fondo*/
+    background: #f2f2f2;
+}
+header{
+    /*Ancho del header*/
+    width: 100%;
+
+    /*Color del fondo / opacidad*/
+    background:rgba(0, 0, 0, .8);
+
+    /*Alto del header*/
+    height: 120px;
+
+    /*Posición fija*/
+    position: fixed;
+
+    /*Prioridad frente a otro elemento*/
+    z-index: 10;
+}
+.ancho{
+    width: 90%;
+    height: 120px;
+    /*Margenes automaticos*/
+    margin: auto;
+}
+.logo{
+    /*Espacio superior del elemento*/
+    padding-top: 15px;
+    width: 40%;
+    height: 120px;
+
+    /*LLevar a los elementos a la izquierda*/
+    float:left;
+
+    /*Hacer que tus elementos no se muevan de su zona*/
+    box-sizing: border-box;
+}
+.logo p a{
+    color:white;
+    font-size: 32px;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: mont;
+    }
+    
+.logo img{
+    padding-top: 0px;
+    height: 100px;
+    width: 100px;
+    /*alineación vertical: centrada*/
+    vertical-align: middle;
+}
+
+nav{
+    width: 60%;
+    height: 120px;
+    float:left;
+    text-align: right;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+display: inline;
+}
+
+nav ul li a{
+
+    /*Color de la fuente*/
+    color: white;
+
+    /*Tamaño de la fuente*/
+    font-size: 18px;
+
+    /*Decoracion del texto(subrayado, negritas, etc): ninguna*/
+    text-decoration: none;
+
+    /*Texto en mayusculas*/
+    text-transform: uppercase;
+
+    /*Un tipo de margen de 20 pixeles*/
+    padding-left: 20px;
+
+    /*Espacio entre letras*/
+    letter-spacing: .5px;
+
+    /*Nombre de la fuente*/
+    font-family: mont;
+
+    /*Transición de salida*/
+    transition: 1s;
+}
+nav ul li a:hover{
+    padding-bottom: 20px;
+    color:#444;
+    /*Transición de entrada*/
+    transition: 1s;
+    font-size: 23px;
+}
+
+nav ul li i:hover{
+    animation: vueltas 2s infinite linear;
+}
+
+@font-face{
+    font-family: mont;
+    src: url(fuentes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: concert;
+    src: url(fuentes/ConcertOne-Regular.ttf);
+}
+@font-face{
+    font-family: perm;
+    src: url(fuentes/PermanentMarker-Regular.ttf);
+}
+@keyframes vueltas {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
+@keyframes zoom{
+    0%{
+        transition: .5s;
+    }
+    100%{
+        transform: scale (1.5);
+    }
+}
