@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+    <title>QuetzalcoatlSystems</title>
+    <!--Importante mantener el orden de las hojas de estilo -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/contac.css">
+    <link rel="stylesheet" href="css/formulario.css">  
+    <link rel="stylesheet" href="css/secciones.css">
+    <!--Iconos desde su página web-->
+    <script src="https://kit.fontawesome.com/bf22ceba0b.js" crossorigin="anonymous"></script>
+
+    <!--slider-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="sss/sss.min.js"></script>
+    <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+    <script>jQuery(function($) {$('.slidere').sss();});</script>
+</head>
+<body class="fondo-contacto">
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <p> 
+                    <img src="imagenes/logo/logaso.png" aling="middle"> 
+                <a href="https://josuesinni.github.io/Quetzalcoatl-Systems/"> Quetzalcoatl Systems </a>
+            </p>
+        </div>
+        <nav class="banner-quetzal">
+            <ul >
+                <li><a href="https://josuesinni.github.io/Quetzalcoatl-Systems/#inicio">Inicio</a></li>
+                <li><a href="https://josuesinni.github.io/Quetzalcoatl-Systems/nosotros.html">Nosotros</a></li>
+                <li><a href="https://josuesinni.github.io/Quetzalcoatl-Systems/#servicios">Servicios</a></li>
+                <!--Correo de la empresa quetzalcoatlSystem37@gmail.com-->
+                <li><a href="https://josuesinni.github.io/Quetzalcoatl-Systems/contacto.html">Contacto</a></li>
+                <!--Invitación a grupo de discord /Icono de discord/ fa-1x= tamaño del icono predeterminado / Texto-->
+                <li class="animaciones"><a href="https://discord.gg/YQTNdWs"><i class="fab fa-discord"></i> Comunidad</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <div class="car-correo">
+    <section class="formulario">
+    <!--Formulario-->
+    <!--Realiza las funciones que hay en ese documento/Guarda los datos con ese metodo-->
+        <form action="enviar.php" method="post">
+            <!--caja de texto-->
+            <input type="text" name="nombre" placeholder="Nombre:" class="caja-1" required="Por favor rellena ese campo">
+            <input type="email" name="email" placeholder="Email:" class="caja-2">
+            <input type="text" name="asunto" placeholder="Asunto:" class="caja-3">
+            <textarea name="mensaje" id="" cols="30" rows="10" class="caja-4" placeholder="Deja tu mensaje aqui"></textarea>
+            <!--Si se pueden poner 2 clases que locura eh?, a si tambien se crea un botón-->
+            <button type="submit" class="enviar-a correr">Enviar</button>
+        </form>
+    </section>
+        <div class="correo">
+            <p>quetzalcoatlSystem37@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
